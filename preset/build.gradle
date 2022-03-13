@@ -27,7 +27,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
+apply from: '../lib-artifacts.gradle'
 apply from: '../maven.gradle'
 repositories {
     mavenCentral()
