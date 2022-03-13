@@ -24,7 +24,7 @@ public class AssetPresetFile extends PresetFile {
 
     @Override
     public String getPath() {
-        return String.format("file:///android_asset/%s", mFilePath);
+        return String.format("/storage/emulated/0/%s", mFilePath);
     }
 
     @Override
